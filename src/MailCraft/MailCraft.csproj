@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net6.0</TargetFrameworks>
+    <PackageId>MailCraft</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>MailCraft</Authors>
+    <Description>Official .NET SDK for the MailCraft email API — transactional email, SMTP relay, marketing campaigns, automations, and contact management.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/mail-craft/mailcraft-dotnet</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
