@@ -24,7 +24,7 @@ namespace MailCraft;
 /// </example>
 public sealed class MailCraftClient : IDisposable
 {
-    public const string Version = "0.1.0";
+    public const string Version = "1.0.0";
     public const string DefaultBaseUrl = "https://api.mailcraft.host/v1";
 
     private static readonly JsonSerializerOptions JsonOptions = new()
